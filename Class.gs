@@ -183,7 +183,7 @@ function generateSessions(spreadsheet, classId, lessonsPerTerm, startDateRaw, cl
         matchedSchedule.assistantIds,  // G: assistant_ids
         matchedSchedule.roomId,        // H: room_id
         "",                            // I: topic (để trống khi tạo mới)
-        "Chưa học"                     // J: session_status
+        "Đã lên lịch"                     // J: session_status
       ]);
     }
     
